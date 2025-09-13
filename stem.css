@@ -2,3 +2,49 @@
     font-size: 150px;
     text-align: center;
 }
+
+body {
+    background-image: url(img/starbackground.jpeg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.info h2 {
+    color: black;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.info p {
+    color: black;
+    font-family: 'Arial', sans-serif;
+    opacity: 0.5;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.date {
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
